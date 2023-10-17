@@ -8,8 +8,8 @@ void pop_offtop(stack_t **top, unsigned int belt)
 {
 	if (*top == NULL)
 	{
-		printf("L%d: can't pop an empty stack", belt);
-		free_n_exit(top);
+		fprintf(stderr, "L%d: can't pop an empty stack", belt);
+		exit(EXIT_FAILURE);
 	}
 	delete_dnodeint_at_index(top, 0);
 }

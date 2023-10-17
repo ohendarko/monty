@@ -11,8 +11,8 @@ void print_top(stack_t **top, unsigned int belt)
 	track = *top;
 	if (track == NULL)
 	{
-		printf("L%d: can't pint, stack empty\n", belt);
-		free_n_exit(top);
+		fprintf(stderr, "L%d: can't pint, stack empty\n", belt);
+		exit(EXIT_FAILURE);
 	}
 	printf("%d\n", track->n);
 }

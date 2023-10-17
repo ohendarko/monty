@@ -15,8 +15,8 @@ void push_to_stack(stack_t **top, unsigned int belt)
 	temp = malloc(sizeof(stack_t));
 	if (!temp)
 	{
-		printf("malloc fail\n");
-		free_n_exit(top);
+		fprintf(stderr, "Error: malloc failed\n");
+		exit(EXIT_FAILURE);
 	}
 	push_args = strtok(NULL, "\n");
 	if (check_ifnum(push_args) == 1 && push_args != NULL)

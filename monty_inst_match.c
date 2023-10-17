@@ -13,6 +13,7 @@ instruct_func monty_match(char *s)
 		{"push", push_to_stack},
 		{"pall", prin_al},
 		{"pint", print_top},
+		{"pop", pop_offtop},
 	};
 
 	while (match[n].f != NULL && strcmp(match[n].opcode, s) != 0)

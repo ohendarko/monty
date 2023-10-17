@@ -52,5 +52,7 @@ void push_to_stack(stack_t **top, unsigned int belt);
 void prin_al(stack_t **top, __attribute__ ((unused))unsigned int belt);
 instruct_func monty_match(char *s);
 void print_top(stack_t **top, unsigned int belt);
+void pop_offtop(stack_t **top, unsigned int belt);
+int delete_dnodeint_at_index(stack_t **head, unsigned int index);
 
 #endif

@@ -11,7 +11,8 @@ instruct_func monty_match(char *s)
 
 	instruction_t match[] = {
 		{"push", push_to_stack},
-		{"pall", prin_al}
+		{"pall", prin_al},
+		{"pint", print_top},
 	};
 
 	while (match[n].f != NULL && strcmp(match[n].opcode, s) != 0)

@@ -51,4 +51,6 @@ int check_ifnum(char *s);
 void push_to_stack(stack_t **top, unsigned int belt);
 void prin_al(stack_t **top, __attribute__ ((unused))unsigned int belt);
 instruct_func monty_match(char *s);
+void print_top(stack_t **top, unsigned int belt);
+
 #endif

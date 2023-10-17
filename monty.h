@@ -58,5 +58,7 @@ void swap_fnsec(stack_t **top, unsigned int belt);
 void add_top2(stack_t **top, unsigned int belt);
 void nothing(__attribute__ ((unused))stack_t **top,
 		__attribute__ ((unused))unsigned int belt);
+void subtop_fsec(stack_t **top, unsigned int belt);
+void divide(stack_t **top, unsigned int belt);
 
 #endif

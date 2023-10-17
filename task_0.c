@@ -23,7 +23,7 @@ void push_to_stack(stack_t **top, unsigned int belt)
 		parsed_arg = atoi(push_args);
 	else
 	{
-		printf("L%d: usage: ", belt);
+		printf("L%d: usage: push integer\n ", belt);
 		free_n_exit(top);
 	}
 	if (qors == 1)

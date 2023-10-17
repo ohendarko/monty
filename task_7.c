@@ -11,7 +11,7 @@ void divide(stack_t **top, unsigned int belt)
 		fprintf(stderr, "L%d: can't div, stack too short\n", belt);
 		exit(EXIT_FAILURE);
 	}
-	if((*top)->n == 0)
+	if ((*top)->n == 0)
 	{
 		fprintf(stderr, "L%d: division by zero\n", belt);
 		exit(EXIT_FAILURE);

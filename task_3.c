@@ -13,7 +13,7 @@ void swap_fnsec(stack_t **top, unsigned int belt)
 
 	if (track == NULL || track->next == NULL)
 	{
-		fprintf(stderr, "L%d: can't swap, stack too short", belt);
+		fprintf(stderr, "L%d: can't swap, stack too short\n", belt);
 		exit(EXIT_FAILURE);
 	}
 	j = track->n;

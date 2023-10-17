@@ -60,5 +60,6 @@ void nothing(__attribute__ ((unused))stack_t **top,
 		__attribute__ ((unused))unsigned int belt);
 void subtop_fsec(stack_t **top, unsigned int belt);
 void divide(stack_t **top, unsigned int belt);
+void multiply(stack_t **top, unsigned int belt);
 
 #endif

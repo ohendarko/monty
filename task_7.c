@@ -8,7 +8,7 @@ void divide(stack_t **top, unsigned int belt)
 {
 	if (*top == NULL || (*top)->next == NULL)
 	{
-		fprintf(stderr, "L%d: can't div, stack too short", belt);
+		fprintf(stderr, "L%d: can't div, stack too short\n", belt);
 		exit(EXIT_FAILURE);
 	}
 	if((*top)->n == 0)

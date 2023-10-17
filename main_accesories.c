@@ -49,8 +49,8 @@ void get_bytecode(char *lfname, stack_t **top)
 		s = monty_match(line);
 		if (s == NULL)
 		{
-			printf("L%d: unknown instruction %s\n", line_count, line);
-			free_n_exit(top);
+			fprintf(stderr, "L%d: unknown instruction %s\n", line_count, line);
+			exit(EXIT_FAILURE);
 		}
 		s(top, line_count);
 		line_count++;

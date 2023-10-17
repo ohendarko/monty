@@ -56,4 +56,7 @@ void pop_offtop(stack_t **top, unsigned int belt);
 int delete_dnodeint_at_index(stack_t **head, unsigned int index);
 void swap_fnsec(stack_t **top, unsigned int belt);
 void add_top2(stack_t **top, unsigned int belt);
+void nothing(__attribute__ ((unused))stack_t **top,
+		__attribute__ ((unused))unsigned int belt);
+
 #endif

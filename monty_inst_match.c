@@ -16,6 +16,7 @@ instruct_func monty_match(char *s)
 		{"pop", pop_offtop},
 		{"swap", swap_fnsec},
 		{"add", add_top2},
+		{"nop", nothing},
 	};
 
 	while (match[n].f != NULL && strcmp(match[n].opcode, s) != 0)

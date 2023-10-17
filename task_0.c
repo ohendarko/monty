@@ -30,6 +30,7 @@ void push_to_stack(stack_t **top, unsigned int belt)
 		add_dnodeint_end(top, parsed_arg);
 	if (qors == 0)
 		add_dnodeint(top, parsed_arg);
+	free(temp);
 }
 
 /**

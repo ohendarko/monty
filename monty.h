@@ -54,5 +54,6 @@ instruct_func monty_match(char *s);
 void print_top(stack_t **top, unsigned int belt);
 void pop_offtop(stack_t **top, unsigned int belt);
 int delete_dnodeint_at_index(stack_t **head, unsigned int index);
+void swap_fnsec(stack_t **top, unsigned int belt);
 
 #endif

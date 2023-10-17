@@ -12,7 +12,7 @@ void free_n_exit(stack_t **stc)
 /**
 * check_ifnum - check if s is a number
 * @s: argument passed
-* Return: 1
+* Return: 1 on success 0 on failure
 */
 int check_ifnum(char *s)
 {
@@ -29,7 +29,9 @@ int check_ifnum(char *s)
 		}
 		if (!isdigit(s[n]))
 			return (0);
+		else
+			return (1);
 		n++;
 	}
-	return (1);
+	return (0);
 }

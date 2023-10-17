@@ -63,5 +63,7 @@ void divide(stack_t **top, unsigned int belt);
 void multiply(stack_t **top, unsigned int belt);
 void mod_division(stack_t **top, unsigned int belt);
 void p_atop(stack_t **top, unsigned int belt);
+void p_trtop(stack_t **top, unsigned int belt);
+
 
 #endif

@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
-* p_trtop - print char at top
+* rotate - print char at top
 * @belt: line number
 * @top: top adress
 */

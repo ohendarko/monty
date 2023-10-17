@@ -65,6 +65,6 @@ void mod_division(stack_t **top, unsigned int belt);
 void p_atop(stack_t **top, unsigned int belt);
 void p_trtop(stack_t **top, unsigned int belt);
 void rotate(stack_t **top, __attribute__ ((unused))unsigned int belt);
-
+void rotbom(stack_t **top, __attribute__ ((unused))unsigned int belt);
 
 #endif

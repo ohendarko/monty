@@ -24,6 +24,7 @@ instruct_func monty_match(char *s)
 		{"pchar", p_atop},
 		{"pstr", p_trtop},
 		{"rotl", rotate},
+		{"rotr", rotbom},
 	};
 
 	while (match[n].f != NULL && strcmp(match[n].opcode, s) != 0)

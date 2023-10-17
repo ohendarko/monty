@@ -11,8 +11,8 @@ int main(int argc, char **argv)
 
 	if (argc != 2)
 	{
-		printf("USAGE: monty file\n");
-		free_n_exit(&stc);
+		fprintf(stderr, "USAGE: monty file\n");
+		exit(EXIT_FAILURE);
 	}
 	get_bytecode(argv[1], &stc);
 	free_dlistint(stc);

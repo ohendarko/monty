@@ -29,8 +29,8 @@ void get_bytecode(char *lfname, stack_t **top)
 
 	if (file == NULL)
 	{
-		printf("Error: Can't open file %s\n", lfname);
-		free_n_exit(top);
+		fprintf(stderr, "Error: Can't open file %s\n", lfname);
+		exit(EXIT_FAILURE);
 	}
 	while (fgets(buffer, sizeof(buffer), file))
 	{

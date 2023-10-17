@@ -1,4 +1,9 @@
 #include "monty.h"
+/**
+* pop_offtop - removes top element
+* @belt: line number
+* @top: top adress
+*/
 void pop_offtop(stack_t **top, unsigned int belt)
 {
 	if (*top == NULL)

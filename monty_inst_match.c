@@ -21,6 +21,7 @@ instruct_func monty_match(char *s)
 		{"div", divide},
 		{"mul", multiply},
 		{"mod", mod_division},
+		{"pchar", p_atop},
 	};
 
 	while (match[n].f != NULL && strcmp(match[n].opcode, s) != 0)

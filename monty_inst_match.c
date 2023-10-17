@@ -20,6 +20,7 @@ instruct_func monty_match(char *s)
 		{"sub", subtop_fsec},
 		{"div", divide},
 		{"mul", multiply},
+		{"mod", mod_division},
 	};
 
 	while (match[n].f != NULL && strcmp(match[n].opcode, s) != 0)

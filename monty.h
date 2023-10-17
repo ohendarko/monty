@@ -61,5 +61,7 @@ void nothing(__attribute__ ((unused))stack_t **top,
 void subtop_fsec(stack_t **top, unsigned int belt);
 void divide(stack_t **top, unsigned int belt);
 void multiply(stack_t **top, unsigned int belt);
+void mod_division(stack_t **top, unsigned int belt);
+
 
 #endif

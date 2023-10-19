@@ -1,0 +1,23 @@
+#include "monty.h"
+#include <stdio.h>
+/**
+* li_fo- deal with stacks
+* @top: top address
+* @belt: line number
+*/
+void li_fo(__attribute__ ((unused)) stack_t **top,
+		__attribute__ ((unused)) unsigned int belt)
+{
+	qors = 0;
+}
+
+/**
+* fi_fo- deal with stacks
+* @top: top address
+* @belt: line number
+*/
+void fi_fo(__attribute__ ((unused))stack_t **top,
+		__attribute__ ((unused))unsigned int belt)
+{
+	qors = 1;
+}

@@ -29,7 +29,7 @@ void get_bytecode(char *lfname, stack_t **top)
 
 	if (file == NULL)
 	{
-		fprintf(stderr, "Error: Can't open file %s\n", lfname);
+		fprintf(stderr, "USAGE: monty file");
 		exit(EXIT_FAILURE);
 	}
 	while (fgets(buffer, sizeof(buffer), file))
